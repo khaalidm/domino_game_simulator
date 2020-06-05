@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<script src="index.js" defer> </script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <h1>Dominoes</h1>
+    <form style="width: 100%">
+        <label>game output:</label>
+    <div id="mything">
+        <textarea rows="10" cols="40" id="output"></textarea>
+    </div>  
+    <br><br>
+        <label for="pname">Player one name:</label><br>
+        <input type="text" id="p1name" name="p1name" value="p1" required><br>
+        <label for="p2name">Player two name:</label><br>
+        <input type="text" id="p2name" name="p2name" value="p2" required><br><br>
+        <label for="button">click buttion, and run multiple times:</label><br>
+        <input type="button" name="button" value="start game" id = "button1" onclick="main();">
+    </form>
+</body>
+</html>
